@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Locadora.Aplicacao\Locadora.Aplicacao.csproj" />
+    <ProjectReference Include="..\Locadora.Dominio\Locadora.Dominio.csproj" />
+    <ProjectReference Include="..\Locadora.Infra.Data\Locadora.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

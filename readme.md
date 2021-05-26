@@ -1,11 +1,11 @@
---comandos ef
+### Comandos ef
 
-dotnet tool install --global dotnet-ef
+`dotnet tool install --global dotnet-ef`
 
---add migration: na pasta projeto infra
+### Add migration: na pasta projeto infra
 
-dotnet ef --startup-project ../Locadora.Apresentacao.Api migrations add InitialCreate
+######Criação da migration
+`dotnet ef --startup-project ../Locadora.Apresentacao.Api migrations add InitialCreate`
 
-
-dotnet ef --startup-project ../Locadora.Apresentacao.Api database update
- 
+######Atualizando a base
+`dotnet ef --startup-project ../Locadora.Apresentacao.Api database update`

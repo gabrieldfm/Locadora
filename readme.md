@@ -11,3 +11,8 @@
 ###### Atualizando a base
 
 `dotnet ef --startup-project ../Locadora.Apresentacao.Api database update`
+
+
+# Swagger
+
+<https://locadorafilmes.azurewebsites.net/swagger/index.html>
